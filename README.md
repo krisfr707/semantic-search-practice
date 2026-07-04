@@ -234,6 +234,6 @@ Precision@3 = (число запросов, где correct_chunk_id ∈ top-3) /
 ## Запуск
 
 ```bash
-pip install sentence-transformers numpy pandas matplotlib scikit-learn torch
+pip install -r requirements.txt
 jupyter notebook semantic_search.ipynb
 
